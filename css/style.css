@@ -38,7 +38,7 @@ h2{
     }
 }
 
-h1, h2, h3, footer, header{
+h1, h2, h3, footer, thead{
     font-family: "Marhey", sans-serif;
 }
 
@@ -48,4 +48,8 @@ nav{
 
 .nav-item:active{
     background-color: rgba(var(--white), 0.2);
+}
+
+.dark-blue-shadow{
+    box-shadow: 1px 1px 3px rgb(var(--dark-blue));
 }
