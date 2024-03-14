@@ -20,9 +20,32 @@ header{
 }
 
 h1{
-    font-family: "Marhey", sans-serif;
     text-transform: uppercase;
-    text-shadow: 2px 2px 10px black;
-    font-size: 4rem;
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 10px black;
+    font-size: 3rem;
     color: white;
+}
+
+h2{
+    text-decoration: wavy underline;
+    color: rgb(var(--light-blue));
+}
+
+@media screen and (max-width: 992px) {
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+h1, h2, h3, footer, header{
+    font-family: "Marhey", sans-serif;
+}
+
+nav{
+    background-color: rgb(var(--dark-blue));
+}
+
+.nav-item:active{
+    background-color: rgba(var(--white), 0.2);
 }
